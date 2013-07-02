@@ -1,0 +1,94 @@
+﻿body{
+margin: auto;
+padding: auto;
+}
+
+p
+{
+font-size: medium;
+text-indent: 30px;
+text-align: justify;
+}
+
+#menu{
+float: center;
+background-color: blue;
+height:40px;
+margin:3px;
+}
+
+#menu ul{
+float:center;
+
+}
+
+#menu ul li{
+	float: left;
+	list-style: none;
+}
+
+#menu ul a{
+	color: red;
+	text-decoration:none;
+	display:block;
+	border: solid 3px;
+	border-color: purple;
+	margin:4px;
+	height: 20px;
+}
+
+#menu ul a:hover{
+text-decoration: underline;
+
+}
+
+
+#menu ol{
+	color: green;
+	display: none;
+}
+
+
+.tab{
+float: left;
+
+}
+
+
+
+.content{
+background-color: grey ;
+
+}
+
+.conteneur{
+
+
+}
+
+
+.construct
+{
+	color: red;
+	font-family: Impact;
+	font-size: small;
+	text-align: center;
+	text-decoration: blink;
+	}
+
+table
+{
+border-collapse: collapse;
+}
+
+td
+{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.citation
+{
+color: blue;
+font-size: medium;
+font-family: alamain, sans serif;
