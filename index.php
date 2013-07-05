@@ -1,12 +1,27 @@
 ﻿<!DOCTYPE html>
-<html>
+<!--
+		       .="=.
+		     _/.-.-.\_
+		    ( ( 0 0 ) )     _
+		     |/  "  \|     //
+		      \'---'/     //
+		      /'………'\\   ((
+		     / /_,_\ \\   \\
+		     \_\\_ __/ \   ))  ____        __
+		     /'  /'~\  |  //  / __ )____  / /_  ______  ___
+		    /   /    \   //  / __  / __ \/ / / / / __ `/ _ \
+		 --' ,--'\/\     /  / /_/ / /_/ / / /_/ / /_/ /  __/
+		'.__ "___'  '___'  /_____/\____/_/\__,_/\__, /\___/
+		                                       /____/
+-->
+<html lang="fr">
 	<head>
+		<meta charset="utf-8" />
 		<title>TPE sur l&acute;Intelligence Artificielle 2010-2011</title>
 		<link rel="stylesheet" href="assets/css/style.css" />
-		<meta charset="utf-8" />
 	</head>
 	<body>
-		<?php include "assets/elements/header.html"; ?>
+		<?php include_once('assets/elements/header.php'); ?>
 		<div class="content">
 			<h1>L&acute;Intelligence Artificielle.</h1>
 
@@ -18,7 +33,7 @@
 				<small><u>Note:</u> Ce site est encore en construction, pour l&acute;instant le fond est pr&eacute;f&eacute;r&eacute; à la forme.</small><br /><br />
 				<a href="page1.php">Introduction</a>
 			</p>
-		</div>	
-		<?php include "assets/elements/footer.html"; ?>
+		</div>
+		<?php include_once('assets/elements/footer.php'); ?>
 	</body>
 </html>
